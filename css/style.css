@@ -1,0 +1,86 @@
+/*
+CLASSI
+
+	INDICE
+	- alfabeto 		    		classe che fa riferimento all'intero alfabeto, comprese lettere e autore/i 
+	- autoraeElenco     		nome dell'autora/e nell'elenco dell'indice iniziale  
+	- letteraAlfabeto   		indica la lettera dell'alfabeto nell'indice iniziale
+	- list-container			indica il nav di navigazione per l'lfabeto
+	- list-section				per dividere in due l'alfabeto, ho diviso in due anche <ul>. Indica la classe dei due <ul>
+	
+	PAGINA AUTORAE
+	- citazioni 				per citazioni 
+	- autoraePagina  			autore nella sua pagina, quindi titolo della pagina autore
+	- riferimento  				riferimento del libro citato all'interno della pagina autorae
+	- citazioni  				citazioni singole degli autorie citatie
+	- raccoltaCitazioni 		raccolta di tutte le citazioni e riferimenti, serve per rendere uniforme stilisticamente la pagina INTERA dell'autorae
+	- riferimentoEcitazione		classe per la section che raccoglie il riferimento e le citazioni annesse a quel riferimento, significato semantico e diverso dal div
+*/
+
+/*ID
+
+*/
+
+/*
+COLORS
+Background:F2EADF (giallo carta);
+Letters: not specified ;
+Titles: #D90D1E (rosso);
+*/
+
+/*FONT
+
+
+*/
+
+
+body {
+	background-color: #F2EADF;
+}
+
+.alfabeto, .autoraePagina, .letteraAlfabeto, .autoraeElenco, .riferimento {
+	color: #D90D1E;
+	font-family: "Ubuntu", serif;
+  	font-weight: 500;
+  	font-style: normal;
+} /* stile dei titoli, autorei e delle lettere dell'alfabeto*/
+
+p {
+	font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 2.5em;
+} /* stile testo scritto */
+
+
+a:link {
+	color: #D90D1E;
+}
+
+a:visited {
+	color: #D90D1E;
+}
+
+.citazioni {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.riferimento {
+	text-align: center;
+}
+
+.autoraePagina {
+	text-align: center;
+}
+
+.list-container {
+	display: flex;
+	justify-content: space between;
+	width: 100%;
+} /* stile classe nav pagina index, gli ul all'interno di nav sono messi uno accanto all'altro*/
+
+.list-section {
+	width: 50%;
+} /* stile classe ul pagina index, gli ul si prendono il 50% del nav
+
