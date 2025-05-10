@@ -11,9 +11,9 @@ CLASSI
 	PAGINA AUTORAE
 	- citazioni 				per citazioni 
 	- autoraePagina  			autore nella sua pagina, quindi titolo della pagina autore
-	- riferimento  				riferimento del libro citato all'interno della pagina autorae
-	- citazioni  				citazioni singole degli autorie citatie
-	- raccoltaCitazioni 		raccolta di tutte le citazioni e riferimenti, serve per rendere uniforme stilisticamente la pagina INTERA dell'autorae
+	- riferimento  				riferimento del libro citato all'interno della pagina autore
+	- citazioni  				citazioni singole degli autori citatie
+	- raccoltaCitazioni 		raccolta di tutte le citazioni e riferimenti, serve per rendere uniforme stilisticamente la pagina INTERA dell'autore
 	- riferimentoEcitazione		classe per la section che raccoglie il riferimento e le citazioni annesse a quel riferimento, significato semantico e diverso dal div
 */
 
@@ -52,7 +52,7 @@ p {
     margin-bottom: 2.5em;
 } /* stile testo scritto */
 
-b{
+b {
 	font-weight: 700;
 }
 
