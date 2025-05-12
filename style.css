@@ -40,21 +40,13 @@ body {
 
 .alfabeto, .autoraePagina, .letteraAlfabeto, .autoraeElenco, .riferimento {
 	color: #D90D1E;
-	font-family: "Ubuntu", serif;
-  	font-weight: 500;
-  	font-style: normal;
+	
 } /* stile dei titoli, autorei e delle lettere dell'alfabeto*/
 
 p {
-	font-family: "Ubuntu", serif;
-    font-weight: 300;
-    font-style: normal;
     margin-bottom: 2.5em;
 } /* stile testo scritto */
 
-b {
-	font-weight: 700;
-}
 
 a:link {
 	color: #D90D1E;
