@@ -10,7 +10,7 @@ CLASSI
 	
 	PAGINA AUTORAE
 	- citazioni 				per citazioni 
-	- autoraePagina  			autore nella sua pagina, quindi titolo della pagina autore
+	- autoraPagina  			autore nella sua pagina, quindi titolo della pagina autore
 	- riferimento  				riferimento del libro citato all'interno della pagina autore
 	- citazioni  				citazioni singole degli autori citatie
 	- raccoltaCitazioni 		raccolta di tutte le citazioni e riferimenti, serve per rendere uniforme stilisticamente la pagina INTERA dell'autore
@@ -38,7 +38,7 @@ body {
 	background-color: #F2EADF;
 }
 
-.alfabeto, .autoraePagina, .letteraAlfabeto, .autoraeElenco, .riferimento {
+.alfabeto, .letteraAlfabeto, .autoraeElenco, .riferimento, .autorePagina {
 	color: #D90D1E;
 	
 } /* stile dei titoli, autorei e delle lettere dell'alfabeto*/
@@ -65,7 +65,7 @@ a:visited {
 	text-align: center;
 }
 
-.autoraePagina {
+.autorePagina {
 	text-align: center;
 }
 
